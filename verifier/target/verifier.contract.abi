@@ -1,0 +1,33 @@
+{
+  "version": "eosio::abi/1.2",
+  "structs": [
+    {
+      "name": "verify",
+      "base": "",
+      "fields": [
+        {
+          "name": "proof",
+          "type": "bytes"
+        },
+        {
+          "name": "pubSignals",
+          "type": "bytes"
+        }
+      ]
+    }
+  ],
+  "types": [],
+  "actions": [
+    {
+      "name": "verify",
+      "type": "verify",
+      "ricardian_contract": ""
+    }
+  ],
+  "tables": [],
+  "ricardian_clauses": [],
+  "variants": [],
+  "action_results": [],
+  "abi_extensions": [],
+  "error_messages": []
+}

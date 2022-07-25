@@ -1,0 +1,12 @@
+{
+  "name": "snarkjs-tests",
+  "version": "1.0.0",
+  "description": "``` git clone https://github.com/iden3/circom.git cd circom  cargo build --release  cargo install --path circom  ```",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx snarkjs zkey export solidityverifier circuit_final.zkey verifier.sol",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jafri",
+  "license": "ISC"
+}
